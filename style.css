@@ -6,6 +6,7 @@
     box-sizing: border-box;
     scroll-behavior: smooth;
 }
+/* start header */
 header{
     background-color: #f0f0f0;
     width: 100%;
@@ -33,6 +34,8 @@ header{
 .navigation a:hover{
     color: #601cfc;
 }
+/* End header */
+/* start landing */
 section{
     padding: 100px 70px;
 }
@@ -89,6 +92,8 @@ section{
     font-size: 1.7em;
     padding-right: 30px;
 }
+/* End landing */
+/* start services */
 .title{
     display: flex;
     justify-content: center;
@@ -130,6 +135,8 @@ section{
     font-weight: 700;
     margin: 10px;
 }
+/* End services */
+/* start projects */
 .projects{
     background-color: #000016;
     
@@ -142,6 +149,7 @@ section{
     padding: 35px;
     margin: 15px;
     transition: ease 0.7s;
+    z
 }
 .projects-card:hover{
     transform: scale(1.1);
@@ -161,13 +169,14 @@ section{
     text-align: center;
 }
 .projects-title a{
-    padding-top: 20px;
+    display: flex;
+    justify-content: center;
+    padding-top: 30px;
     padding-bottom: 20px;
-    position: relative;
-    left: 33%;
     text-decoration: none;
 }
-
+/* End projects */
+/* start contact */
 .content .icon{
     font-size: 4.5em;
 }
@@ -181,7 +190,8 @@ section{
 .content .card .info p a{
     text-decoration: none;
 }
-
+/* End contact */
+/* start footer  */
 footer{
     background-color: #000016;
     color: #fff;
@@ -200,6 +210,7 @@ footer{
 .footer-title span{
     color: #3a6cf4;
 }
+/* End footer  */
 @media (max-width:1023px){
     header{
         padding: 12px 20px;
@@ -223,3 +234,4 @@ footer{
         font-size: 0.8em;
     }
 }
+
